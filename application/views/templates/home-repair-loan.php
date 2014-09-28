@@ -20,7 +20,7 @@
 				</div>             
 			</div>            
 			<div class="col-md-12">                
-				<p style="padding:0 10px;">Monthly Business Loan Payment: &#8369; <span id="monthlypayment" class="color069"></span></p>            
+				<p  class="color069" style="padding:0 10px;">Monthly Business Loan Payment: &#8369; <span id="monthlypayment" class="color069"></span></p>            
 			</div>        
 		</div>    
 	</div>
