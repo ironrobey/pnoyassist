@@ -1,0 +1,13 @@
+.relative{ position: relative; }
+.error{
+	border: 1px solid red!important;
+}
+.error-icon{
+	color: red;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+}
+.error-txt{ color: red; font-size: 12px; }
+.inputwrapper input, .inputwrapper input:focus{ border: 1px solid #fff; }
+.btn-facebook{ color: #fff!important; }

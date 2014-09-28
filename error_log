@@ -1,0 +1,22 @@
+[27-Aug-2014 06:54:40 America/Chicago] PHP Fatal error:  Call to a member function library() on a non-object in /home3/tektile/public_html/pinoyassist/application/libraries/authentication.php on line 84
+[27-Aug-2014 07:22:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/tektile/public_html/pinoyassist/application/libraries/authentication.php on line 29
+[27-Aug-2014 10:02:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php on line 86
+[27-Aug-2014 11:11:59 America/Chicago] PHP Fatal error:  Call to a member function validate() on a non-object in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php on line 63
+[27-Aug-2014 11:12:05 America/Chicago] PHP Fatal error:  Call to a member function validate() on a non-object in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php on line 63
+[27-Aug-2014 11:14:26 America/Chicago] PHP Fatal error:  Class 'Facebook\Entities\AccessToken' not found in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/Facebook/FacebookSession.php on line 74
+[27-Aug-2014 11:14:34 America/Chicago] PHP Fatal error:  Call to undefined method Facebook\FacebookAuthorizationException::getErrorMessage() in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php on line 68
+[27-Aug-2014 11:14:37 America/Chicago] PHP Fatal error:  Call to undefined method Facebook\FacebookAuthorizationException::getErrorMessage() in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php on line 68
+[27-Aug-2014 11:17:32 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home3/tektile/public_html/pinoyassist/application/libraries/facebook/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home3/tektile/public_html/pinoyassist/application/libraries/facebook/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home3/tektile/public_html/pinoyassist/application/libraries/facebook/facebook.php(83): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 /home3/tektile/public_html/pinoyassist/system/core/Loader.php(1099): Facebook->__construct()
+#4 /home3/tektile/public_html/pinoyassist/system/core/Loader.php(975): CI_Loader->_ci_init_class('facebook', '', NULL, NULL)
+#5 /home3/tektile/public_html/pinoyassist/system/core/L in /home3/tektile/public_html/pinoyassist/application/libraries/facebook/Facebook/FacebookRequestException.php on line 104
+[27-Aug-2014 11:19:28 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home3/tektile/public_html/pinoyassist/application/errors/error_php.php on line 28
+[28-Aug-2014 08:16:26 America/Chicago] PHP Fatal error:  Call to undefined method M_auth::getProfile() in /home3/tektile/public_html/pinoyassist/application/controllers/ajax.php on line 11
+[28-Aug-2014 08:16:43 America/Chicago] PHP Fatal error:  Call to a member function getProfile() on a non-object in /home3/tektile/public_html/pinoyassist/application/controllers/ajax.php on line 11
+[28-Aug-2014 08:17:00 America/Chicago] PHP Fatal error:  Call to a member function getProfile() on a non-object in /home3/tektile/public_html/pinoyassist/application/controllers/ajax.php on line 11
+[28-Aug-2014 09:30:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home3/tektile/public_html/pinoyassist/application/controllers/members.php on line 41
+[28-Aug-2014 09:30:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home3/tektile/public_html/pinoyassist/application/controllers/members.php on line 41
