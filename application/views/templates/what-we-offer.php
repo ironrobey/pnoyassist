@@ -13,14 +13,14 @@
 	</div>
 </div><!--pageheader-->        
 <div class="container mar-top-15">    
-	<h4 class="widgettitle title-primary">iLoan</h4>  
+	<h1 style="font-size: 40px;font-family: Oswald">iLoan</h1>  
 	<ul style="list-style-type: none;">        
 		<li><span class="iconfa-ok"></span> <a href="/educational_loan">Educational Loan</a></li>        
-		<li><span class="iconfa-ok"></span> <a href="/leisure_loan"> Leasure Loan</a></li>        
-		<li><span class="iconfa-ok"></span> <a href="/business_loan">Business Loan</a></li>        
-		<li><span class="iconfa-ok"></span> <a href="/medical_loan"> Medical Loan</a></li>        
+		<li><span class="iconfa-ok"></span> <a href="/medical_loan"> Medical Loan</a></li> 
 		<li><span class="iconfa-ok"></span> <a href="/home_repair_loan">Home Repair Loan</a></li>        
-		<li><span class="iconfa-ok"></span> <a href="/moving_and_relocation_loan">Moving and Relocation Loan</a></li>        
+		<li><span class="iconfa-ok"></span> <a href="/business_loan">Business Loan</a></li>        
+		<li><span class="iconfa-ok"></span> <a href="/moving_and_relocation_loan">Moving and Relocation Loan</a></li>     
+		<li><span class="iconfa-ok"></span> <a href="/leisure_loan"> Leisure Loan</a></li>           
 		<li><span class="iconfa-ok"></span> <a href="/anything_loan">Anything Loan</a></li>   
 	</ul>   
 	<h4 class="widgettitle title-primary">Eligibility Criteria</h4>   

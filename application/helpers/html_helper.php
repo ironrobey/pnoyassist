@@ -304,12 +304,11 @@ if( !function_exists('display_footer') ){
                         <p><big>iLoan</big></p>
                         <ul>
                             <li><a href="<?php echo site_url( 'educational_loan' ); ?>">Educational Loan</a></li>
-                            <li><a href="<?php echo site_url( 'leisure_loan'); ?>">Leisure Loan</a></li>
+                            <li><a href="<?php echo site_url( 'medical_loan'); ?>">Medical Loan</a></li>
                             <li><a href="<?php echo site_url( 'home_repair_loan'); ?>">Home Repair Loan</a></li>
                             <li><a href="<?php echo site_url( 'business_loan'); ?>">Business Loan</a></li>
-                            <li><a href="<?php echo site_url( 'medical_loan'); ?>">Medical Loan</a></li>
-                            <li><a href="<?php echo site_url( 'placement_fees'); ?>">Placement Fees</a></li>
                             <li><a href="<?php echo site_url( 'moving_and_relocation_loan'); ?>">Moving and Relocation Loan</a></li>
+                            <li><a href="<?php echo site_url( 'leisure_loan'); ?>">Leisure Loan</a></li>
                             <li><a href="<?php echo site_url( 'anything_loan'); ?>">Anything Loan</a></li>
                         </ul>
                     </div>

@@ -26,18 +26,34 @@
 	</div>
 </div> 
 <div class="container">    
-	<h1>Why do I need a home repair loan?</h1>    
-	<p style=" color: #0067b1;font-size: 25px;font-weight: bold;font-family: Oswald; line-height: 30px;">Natural disasters are too common in the Philipines. We are often visited by powerful typhoons which can destroy your home at a snap of a finger!</p>    
-	<p><big><b>TOGETHER, we can rebuild your home!</b></big></p>    
-	<p><big><b>It is so easy,  just follow these steps:</b></big></p>    
-	<ul class="list-loan">    
-		<li><span class="btn btn-info"><b>1.</b></span>  By using the calculator above, let us know the amount you may need.</li>    
-		<li><span class="btn btn-danger"><b>2.</b></span> <a href="" class="text-primary"><u>Register</u></a> with PA</li>    
-		<li><span class="btn btn-warning"><b>3.</b></span>  Build your points by adding your personal info</li>    
-		<li><span class="btn btn-inverse"><b>4.</b></span>  Fill out the application online</li>    
-		<li><span class="btn btn-primary"><b>5.</b></span>  Submit all requirements</li>    
-		<li><span class="btn btn-success"><b>6.</b></span>  Click SUBMIT and we will do the rest!</li>    
-	</ul>
+	<div class="row">
+		<div class="col-md-9">
+			<h1>Why do I need a home repair loan?</h1>    
+			<p style=" color: #0067b1;font-size: 25px;font-weight: bold;font-family: Oswald; line-height: 30px;">Natural disasters are too common in the Philipines. We are often visited by powerful typhoons which can destroy your home at a snap of a finger!</p>    
+			<p><big><b>TOGETHER, we can rebuild your home!</b></big></p>    
+			<p><big><b>It is so easy,  just follow these steps:</b></big></p>    
+			<ul class="list-loan">    
+                <li><span class="btn btn-info"><b>1.</b></span> Move the arrow above to calculate th amount of loan you need.</li> 
+                <li><span class="btn btn-danger"><b>2.</b></span> <a href="<?php echo site_url( 'registration' ); ?>" class="text-primary"><u>Register</u></a> with PA</li>    
+                <li><span class="btn btn-warning"><b>3.</b></span> Build your points by adding all your personal and social information.</li>    
+                <li><span class="btn btn-inverse"><b>4.</b></span>  Fill out the application online</li>  
+                <li><span class="btn btn-primary"><b>5.</b></span>  Submit all requirements</li> 
+                <li><span class="btn btn-success"><b>6.</b></span>  Click SUBMIT and we will do the rest!</li>      
+			</ul>
+		</div>
+	    <div class="col-md-3">
+	        <h1 style="font-family: Oswald; font-size: 40px;">iLoan</h1>  
+	        <ul style="list-style-type: none;">        
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'educational_loan' ); ?>">Educational Loan</a></li>        
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'medical_loan' ); ?>"> Medical Loan</a></li>    
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'home_repair_loan' ); ?>">Home Repair Loan</a></li>  
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'business_loan' ); ?>">Business Loan</a></li>        
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'moving_and_relocation_loan' ); ?>">Moving and Relocation Loan</a></li> 
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'leisure_loan' ); ?>"> Leisure Loan</a></li>              
+	          <li><span class="iconfa-ok"></span> <a href="<?php echo site_url( 'anything_loan' ); ?>">Anything Loan</a></li>  
+	        </ul> 
+	    </div>
+	</div>
 </div>    
  <div class="jumbotron mar-top-15" style="margin-bottom:0;padding-bottom: 20px"> 
      <center>   
