@@ -19,14 +19,14 @@
 	<div class="row mar-top-40">        
 		<div class="col-md-6">            
 			<h2 class="text-primary"><big>PinoyAssist</big></h2>             
-			<p><big>Established to provide a variety of services to the Filipino people and businesses.</big></p>        
+			<p><big>Established to provide a variety of services to the Filipino people and businesses.<br>       
+			We are staffed with qualified and experienced personnel we call PA Advisors.<br>
+			Trust that we will work to help you meet your end goal while keeping your best interests at heart.</big></p>
 		</div>        
 		<div class="col-md-4">            
 			<center><img src="<?php echo site_url( 'assets/images/pa.png' ); ?>"></center>        
 		</div>    
 	</div>        
-	<p class="mar-top-40"><big>We are staffed with qualified and experienced personnel we call PA Advisors.</big></p>
-	<p><big>Trust that we will work to help you meet your end goal while keeping your best interests at heart.</big></p>
 </div> 
 <?php display_footer(); ?>
 <div class="modal fade" id="contact" role="dialog">	

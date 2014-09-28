@@ -6,7 +6,8 @@ jQuery(document).ready(function(){
     // tabbed widget
     jQuery('.tabbedwidget').tabs();
 
-    computeLoanPayment( 10000, 6 );
+    computeLoanPayment( 15000, 3, "#monthlypayment" );
+    computeLoanPayment( 15000, 3, "#monthlypaymentModal" );
         
         // accordion widget
 	jQuery('.accordion').accordion({heightStyle: "content"});
@@ -111,7 +112,6 @@ jQuery(document).ready(function(){
                         });
 		});
 	}
-        
 
 	// normal slider
 	jQuery("#slider").slider({value: 40});
@@ -141,17 +141,16 @@ jQuery(document).ready(function(){
 	jQuery("#amount2").text("$" + jQuery("#slider3").slider("values", 0) +
 			" - $" + jQuery("#slider3").slider("values", 1));
 	
-	
 	// slider with fixed minimum
 	jQuery("#slider4").slider({
 			range: "min",
-			value: 10000,
-            min:0,
+			value: 15000,
+            min:15000,
 			max: 50000,
             step: 5000,
 			slide: function( event, ui ) {
 				jQuery("#amount4").text(ui.value);
-                computeLoanPayment( ui.value, jQuery('#amount5').text() );
+                computeLoanPayment( ui.value, jQuery('#amount5').text(), "#monthlypayment" );
                 
 			}
 	});
@@ -160,16 +159,43 @@ jQuery(document).ready(function(){
 	// slider with fixed maximum
 	jQuery("#slider5").slider({
 			range: "min",
-			value: 6,
-			min: 0,
+			value: 3,
+			min: 3,
 			max: 12,
             step: 3,
 			slide: function(event, ui) {
 				jQuery("#amount5").text(ui.value+ " months");
-				computeLoanPayment( jQuery('#amount4').text(), ui.value );
+				computeLoanPayment( jQuery('#amount4').text(), ui.value, "#monthlypayment" );
 			}
 	});
 	jQuery("#amount5").text(jQuery("#slider5").slider("value")+" months");
+
+	jQuery("#slider40").slider({
+			range: "min",
+			value: 15000,
+            min:15000,
+			max: 50000,
+            step: 5000,
+			slide: function( event, ui ) {
+				jQuery("#amount40").text(ui.value);
+                computeLoanPayment( ui.value, jQuery('#amount50').text(), "#monthlypaymentModal" );
+                
+			}
+	});
+	jQuery("#amount40").text(jQuery("#slider40").slider("value"));
+
+	jQuery("#slider50").slider({
+			range: "min",
+			value: 3,
+            min:3,
+			max: 12,
+            step: 3,
+			slide: function( event, ui ) {
+				jQuery("#amount50").text(ui.value);
+                computeLoanPayment( jQuery('#amount40').text(), ui.value, "#monthlypaymentModal" );
+			}
+	});
+	jQuery("#amount50").text(jQuery("#slider50").slider("value"));
 	
 	// slider vertical
 	jQuery("#slider6").slider({
@@ -217,12 +243,12 @@ jQuery(document).ready(function(){
         }
    });
 
-    function computeLoanPayment( $loan, $length ){
+    function computeLoanPayment( $loan, $length, $id ){
 
     	$quotient = $loan / parseInt( $length );
     	$interest = $loan * .035;
     	$payment = ( $loan == 0 || parseInt( $length ) == 0 ? 0 : $interest + $quotient );	
-    	jQuery("#monthlypayment").text( Math.ceil( $payment ) );
+    	jQuery($id).text( Math.ceil( $payment ) );
 
     }
 	

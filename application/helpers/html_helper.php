@@ -329,7 +329,7 @@ if( !function_exists('display_footer') ){
                 <ul class="nav navbar-nav navbar-left">
                     <li class="loan-facebook"><a href="https://www.facebook.com/pinoy.assist" target="_blank"><span class="fa fa-facebook"></span> follow us on Facebook</a></li>
                     <li class="loan-procedure"><a href="<?php echo site_url( 'loan_procedure' ); ?>">LOAN PROCEDURE</a></li>
-                    <li class="loan-calculator"><a href="#">LOAN CALCULATOR</a></li>
+                    <li class="loan-calculator"><a href="#" data-toggle="modal" data-target="#loan-calculator">LOAN CALCULATOR</a></li>
                     <li class="loan-faqs"><a href="#">FAQs</a></li>
                     <li class="loan-form"><a href="<?php echo site_url( 'registration' ); ?>">Apply Now</a></li>
                 </ul>     

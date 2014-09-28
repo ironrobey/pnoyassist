@@ -12,7 +12,7 @@
 		<h1>What we offer</h1>    
 	</div>
 </div><!--pageheader-->        
-<div class="container mar-top-15">    
+<div class="container mar-top-15">   
 	<h1 style="font-size: 40px;font-family: Oswald">iLoan</h1>  
 	<ul style="list-style-type: none;">        
 		<li><span class="iconfa-ok"></span> <a href="/educational_loan">Educational Loan</a></li>        

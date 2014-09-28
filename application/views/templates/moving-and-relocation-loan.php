@@ -1,6 +1,6 @@
 <?php display_header(); ?>
 <div class="container">    
-	<h4 class="widgettitle title-inverse"><i class="iconsweets-calculator"></i> Moving and Relocation Loan Calculator</h4>    
+	<h4 class="widgettitle title-inverse bold">Moving and Relocation Loan Calculator</h4>    
 	<div class="pargroup">        
 		<div class="row">            
 			<div class="col-md-6">                 
