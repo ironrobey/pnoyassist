@@ -53,7 +53,7 @@
             </div><!-- #form dada -->
         </div>
         <div class="col-lg-6">
-            <address>
+            <!-- <address>
                 <strong>Address:</strong><br>
                 <p>SUITE G, ANSUYA ESTATE, REVOLUTION AVE.<br>
                 VICTORIA, MAHE, SEYCHELLES<br>
@@ -71,7 +71,7 @@
 	Our PA Advisor</p>
 <p><label>Office Hours: </label>
 	Mondays to Saturdays, 830 am to 6 pm</p>
-            </address>
+            </address> -->
         </div>
     </section>  
 </div>

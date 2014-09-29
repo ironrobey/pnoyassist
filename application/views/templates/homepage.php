@@ -42,11 +42,15 @@
         	<h3>What is a PinoyAssist Points?</h3>
         </div>
         <div class="col-md-4">
-        	<img src="<?php echo site_url( 'assets/images/action-easy.png' ); ?>" alt="It's so easy" title="It's so easy" />
+        	<a href="<?php echo site_url( 'loan_procedure' ); ?>">
+                <img src="<?php echo site_url( 'assets/images/action-easy.png' ); ?>" alt="It's so easy" title="It's so easy" />
+            </a>
         	<h3>It's so easy!</h3>
         </div>
         <div class="col-md-4">
-        	<img src="<?php echo site_url( 'assets/images/action-qna.png' ); ?>" alt="Frequently Asked Questions" title="Frequently Asked Questions" />
+            <a href="<?php echo site_url( 'faqs' ); ?>">
+        	   <img src="<?php echo site_url( 'assets/images/action-qna.png' ); ?>" alt="Frequently Asked Questions" title="Frequently Asked Questions" />
+            </a>
         	<h3>Frequently Asked Questions</h3>
         </div>
     </section>
