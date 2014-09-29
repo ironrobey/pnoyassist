@@ -6,6 +6,10 @@ class Login extends CI_Controller {
 
 		parent::__construct();
 
+		if( $this->session->userdata('login_data') ){
+			redirect( '/' );
+		}
+
 		$this->load->library('authentication');
 		$params = array( 'redirect_url'=>'login/fbLogin' );
 		$this->load->library('facebook', $params);

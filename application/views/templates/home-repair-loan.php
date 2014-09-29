@@ -6,7 +6,7 @@
 			<div class="col-md-6">                 
 				<div class="par">                    
 					<p>
-						<a class="btn btn-success" href=""><i class="iconfa-money"></i> Amount of Loan Desire: <strong> &#8369; <span id="amount4" class="color069"></span></strong></a>
+						<a class="btn btn-success" href=""><i class="iconfa-money"></i> Amount of Loan Desired: <strong> &#8369; <span id="amount4" class="color069"></span></strong></a>
 					</p>                    
 					<div id="slider4" style="margin-top:25px"></div>                
 				</div>            
@@ -29,7 +29,7 @@
 	<div class="row">
 		<div class="col-md-9">
 			<h1>Why do I need a home repair loan?</h1>    
-			<p style=" color: #0067b1;font-size: 25px;font-weight: bold;font-family: Oswald; line-height: 30px;">Natural disasters are too common in the Philipines. We are often visited by powerful typhoons which can destroy your home at a snap of a finger!</p>    
+			<p style=" color: #0067b1;font-size: 25px;font-weight: bold;font-family: Oswald; line-height: 30px;">Natural disasters are too common in the Philippines. We are often visited by powerful typhoons which can destroy your home in an instant!</p>    
 			<p><big><b>TOGETHER, we can rebuild your home!</b></big></p>    
 			<p><big><b>It is so easy,  just follow these steps:</b></big></p>    
 			<ul class="list-loan">    

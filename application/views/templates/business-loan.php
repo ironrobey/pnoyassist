@@ -6,7 +6,7 @@
 			<div class="par">                    
 				<p>                        
 					<a class="btn btn-success" href="">                            
-						<i class="iconfa-money"></i> Amount of Loan Desire: <strong> &#8369; <span id="amount4" class="color069"></span></strong>                        
+						<i class="iconfa-money"></i> Amount of Loan Desired: <strong> &#8369; <span id="amount4" class="color069"></span></strong>                        
 					</a>                    
 				</p>                    
 				<div id="slider4" style="margin-top:25px"></div>                
@@ -35,13 +35,12 @@
 			<p style=" color: #0067b1;font-size: 25px;font-weight: bold;font-family: Oswald; line-height: 30px;">So, you have this dream of starting your own business!  Furthermore, you want to augment the income you make from your 9 - 5 job. How will you realize this dream?</p>    
 			<p><big><b>TOGETHER, we can kick start your dream business!</b></big></p>        
 			<ul class="list-loan">    
-				<li><span class="btn btn-info"><b>1.</b></span> Use the calculator above and determine how much you need.</li>    
-				<li><span class="btn btn-danger"><b>2.</b></span> <a href="" class="text-primary"><u>Register</u></a> with PA</li>    
-				<li><span class="btn btn-warning"><b>3.</b></span>  Build your points by adding your personal info</li>    
-				<li><span class="btn btn-inverse"><b>4.</b></span>  Fill out the application online</li>    
-				<li><span class="btn btn-primary"><b>5.</b></span>  Submit all requirements</li>    
-				<li><span class="btn btn-success"><b>6.</b></span>  Click SUBMIT and we will do the rest!</li>    
-				<li><span class="btn btn-info"><b>7.</b></span>  You will have your money in no time!</li>    
+                <li><span class="btn btn-info"><b>1.</b></span> Move the arrow above to calculate th amount of loan you need.</li> 
+                <li><span class="btn btn-danger"><b>2.</b></span> <a href="<?php echo site_url( 'registration' ); ?>" class="text-primary"><u>Register</u></a> with PA</li>    
+                <li><span class="btn btn-warning"><b>3.</b></span> Build your points by adding all your personal and social information.</li>    
+                <li><span class="btn btn-inverse"><b>4.</b></span>  Fill out the application online</li>  
+                <li><span class="btn btn-primary"><b>5.</b></span>  Submit all requirements</li> 
+                <li><span class="btn btn-success"><b>6.</b></span>  Click SUBMIT and we will do the rest!</li>   
 			</ul>			
 		</div>
 	    <div class="col-md-3">

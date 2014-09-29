@@ -6,6 +6,10 @@ class Registration extends CI_Controller {
 
 		parent::__construct();
 
+		if( $this->session->userdata('login_data') ){
+			redirect( '/' );
+		}
+
 		$params = array('redirect_url'=>'registration/fbregistration');
 		$this->load->library('facebook',$params);
 

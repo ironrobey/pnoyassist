@@ -11,7 +11,7 @@
             				<div class="par">
             					<p>
             						<a class="btn btn-success" href="">
-            							<i class="iconfa-money"></i> Amount of Loan Desire: <strong> &#8369; <span id="amount40" class="color069"></span></strong>
+            							<i class="iconfa-money"></i> Amount of Loan Desired: <strong> &#8369; <span id="amount40" class="color069"></span></strong>
             						</a>
             					</p>
             					<div id="slider40" style="margin-top:25px"></div>
