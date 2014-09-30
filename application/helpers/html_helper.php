@@ -331,7 +331,7 @@ if( !function_exists('display_footer') ){
                     <li class="loan-procedure"><a href="<?php echo site_url( 'loan_procedure' ); ?>">LOAN PROCEDURE</a></li>
                     <li class="loan-calculator"><a href="#" data-toggle="modal" data-target="#loan-calculator">LOAN CALCULATOR</a></li>
                     <li class="loan-faqs"><a href="<?php echo site_url( 'faqs' ); ?>">FAQs</a></li>
-                    <li class="loan-form"><a href="<?php echo site_url( 'registration/apply_now' ); ?>">Apply Now</a></li>
+                    <li class="loan-form"><a href="<?php echo ( $CI->session->userdata('login_data') ? site_url( 'members/loans' ) : site_url( 'registration/apply_now' ) ); ?>">Apply Now</a></li>
                 </ul>     
             </div>
         </div> 
