@@ -53,8 +53,10 @@ $(document).ready(function(){
 
 						$msg = '<p>You have successfully registered</p>';
 
+						console.log( response );
+
 						setTimeout(function(){
-							window.location.href=global_url+"members";
+							window.location.href=global_url+response;
 						}, 1500);
 
 					}

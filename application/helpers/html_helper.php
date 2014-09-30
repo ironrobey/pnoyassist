@@ -39,7 +39,7 @@ if ( ! function_exists('parse_js')){
     function parse_js( $scripts ){
         foreach( $scripts as $script ){
             if( $script!='' || $script!= null ){ ?>
-            <script type="text/javascript" src="<?php echo site_url( 'assets' ) .'/'. $script; ?>?v=1.0"></script>
+            <script type="text/javascript" src="<?php echo site_url( 'assets' ) .'/'. $script; ?>?v=2.0"></script>
             <?php
             }
         }
