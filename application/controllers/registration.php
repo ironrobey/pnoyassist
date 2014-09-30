@@ -28,6 +28,7 @@ class Registration extends CI_Controller {
 
 		$this->data['pageView'] = 'registration';
 		$this->load->view('master-layout', $this->data);
+		
 	}
 
 	public function fbregistration(){

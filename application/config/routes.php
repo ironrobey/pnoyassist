@@ -41,6 +41,8 @@
 $route['default_controller'] = "homepage";
 $route['404_override'] = '';
 
+$route['registration/apply_now'] = "registration/index/apply_now";
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -674,8 +674,12 @@ class Ajax extends CI_Controller {
 
 		$checkUser = $this->m_auth->checkUser( $email,$password );
 		$redirect = $this->authentication->redirect_user( $checkUser );
+		
+		if( isset( $redirect_apply ) ){
+			$redirect = $redirect.'/loans';
+		}
 
-		echo json_encode( $redirect );
+		echo json_encode($redirect);
 		
 	}
 

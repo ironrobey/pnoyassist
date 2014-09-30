@@ -16,6 +16,9 @@
         <?php endif; ?>
             
             <form method="post" id="registrationForm" class="stdform">
+                <?php if( $this->uri->segment(2) ): ?>
+                <input type="hidden" name="redirect_apply" value="<?php echo $this->uri->segment(2); ?>">
+                <?php endif; ?>
                 <div class="row">
                     <div class="col-md-5">
                     <h3 class="subtitle">Fill in all of the fields below</h3>
@@ -54,7 +57,7 @@
                         <h3 class="subtitle">use an existing account</h3>
                         <a class="btn btn-facebook btn-lg" style="width: 100%" href="<?php echo $this->facebook->get_login_url(); ?>"><i class="fa fa-facebook pull-left"></i> Join with Facebook</a>
                         <br><br>
-                        <a class="btn btn-warning" style="width: 100%;">Go Back to Homepage</a>
+                        <a class="btn btn-warning" style="width: 100%;" href="<?php echo site_url(); ?>">Go Back to Homepage</a>
                     </div>
                 </div> 
             </form>
